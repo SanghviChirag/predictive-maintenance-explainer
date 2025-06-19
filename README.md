@@ -61,10 +61,12 @@ Conv2D(16 filters) → MaxPooling2D → Flatten
 ## 📈 Results
 
 - ✅ **Validation Accuracy:** ~97%
-- ⚠️ Strong performance for **No Failure** class
-- 🚨 Lower recall for **Failure** class — a common challenge in imbalanced classification
+- ⚠️ Strong performance for **No Failure** class (`0`)
+- 🚨 Lower recall for **Failure** class (`1`) — typical for imbalanced datasets
+- 📉 Suggestion: Use class weighting, resampling, or anomaly detection techniques to improve rare class prediction
 
-Sample Predictions:
+**Sample Predictions:**
+
 ```
 
 Sample 1: Defect Status = 0, Defect Rate = 0.0067
