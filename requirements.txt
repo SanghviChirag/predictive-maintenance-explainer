@@ -1,0 +1,8 @@
+pandas==2.2.2
+numpy==2.0.2
+matplotlib==3.10.0
+scikit-learn==1.6.1
+tensorflow==2.18.0
+keras==3.8.0
+shap==0.48.0
+lime==0.2.0.1
